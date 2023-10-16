@@ -23,7 +23,7 @@ Before using this code, make sure you have the following prerequisites:
 3. Replace the api_key variable with your Cohere API key.
 4. Replace the text variable with your desired text for analysis.
 5. Run the Python script:
-
+``` jupyter notebook DenseRetrieval&ReRanking.ipynb``` 
 ### Usage
 #### Sentence Concatenation
 The script takes a text containing broken sentences and concatenates them to form complete sentences. It does this by checking if a sentence ends with specific characters (e.g., digits or a dollar sign) and combines it with the following sentence if necessary.
